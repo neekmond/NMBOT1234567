@@ -1,8 +1,7 @@
 # noinspection PyUnresolvedReferences
 
 import discord
-
-token = "NjQwNTEyNDY5MTAxNzA3MjY1.Xg2lfQ.jODSoLs7FAMnjZiIWuF75YoEMAo"
+import os
 
 client=discord.Client()
 
@@ -36,4 +35,6 @@ if message.content.startswith("닉몬봇 계산"):
             while client.send_message(message.channel, "결과는? "+str(calcResult))
 
 
-client.run(token)
+            
+access_token = os.environ["BOT_TOKEN"]
+client.run("access_token")
