@@ -1,7 +1,6 @@
 # noinspection PyUnresolvedReferences
 
 import discord
-import asyncio
 
 token = "NjQwNTEyNDY5MTAxNzA3MjY1.Xg2lfQ.jODSoLs7FAMnjZiIWuF75YoEMAo"
 
