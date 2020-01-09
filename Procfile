@@ -1,1 +1,1 @@
-worker: python 봇.py
+worker: python 봇테스트.py
